@@ -4,6 +4,7 @@ const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
+console.log(1);
 
 // Lấy cổng từ biến môi trường hoặc mặc định là 8080
 const PORT = process.env.PORT || 8080;
