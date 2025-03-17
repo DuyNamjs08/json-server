@@ -392,5 +392,13 @@
       "positions": "Lãnh đạo",
       "role": "admin"
     }
+  ],
+  "test": [
+    {
+      "id": "2093",
+      "fullName": "test",
+      "email": "namd2@gmail.com",
+      "role": "admin"
+    }
   ]
 }
