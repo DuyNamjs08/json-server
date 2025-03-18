@@ -383,22 +383,71 @@
   "user": [
     {
       "id": "2093",
-      "fullName": "nmadz bôn liền",
       "email": "namd2@gmail.com",
-      "numberPhone": "0866621957",
-      "departments": "MLMB - P.VT/DaiVT/Đối tác",
-      "telecommunicationsStations": "DVT Hà Nội 1",
-      "partners": "ALPHA",
-      "positions": "Lãnh đạo",
-      "role": "admin"
+      "password": "namd2@gmail.com",
+      "phone": "0866621957",
+      "first_name": "0866621957",
+      "last_name": "0866621957",
+      "profile_image": "MLMB - P.VT/DaiVT/Đối tác",
+      "department_id": "ALPHA",
+      "role_id": "Lãnh đạo",
+      "telecom_station_id": "",
+      "partners_id": ""
     }
   ],
-  "test": [
+  "department": [
     {
-      "id": "2093",
-      "fullName": "test",
-      "email": "namd2@gmail.com",
-      "role": "admin"
+      "id": "1",
+      "name": "MLMB-Ban-giám-đốc",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "name": "MLMB-P.VT",
+      "description": ""
+    },
+    {
+      "id": "3",
+      "name": "MLMB-DaiVT",
+      "description": ""
+    },
+    {
+      "id": "4",
+      "name": "Đối-tác",
+      "description": ""
     }
-  ]
+  ],
+  "role": [
+    {
+      "id": "1",
+      "name": "Chuyên viên",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "name": "Lãnh đạo",
+      "description": ""
+    }
+  ],
+  "telecomStation": [
+    {
+      "id": "1",
+      "value": "DVT Thái Nguyên",
+      "area": "Miền bắc",
+      "province": "Thái Nguyên"
+    },
+    {
+      "id": "2",
+      "value": "DVT Hà Nội 1",
+      "area": "Miền bắc",
+      "province": "Thái Nguyên"
+    },
+    {
+      "id": "3",
+      "value": "DVT Hà Nội 2",
+      "area": "Miền bắc",
+      "province": "Thái Nguyên"
+    }
+  ],
+  "reports": []
 }
