@@ -213,112 +213,10 @@
       "detail": "View"
     }
   ],
-  "partnersManagement": [
-    {
-      "id": "43c72458-3d5a-49a5-a534-358baef62c81",
-      "name": "Teracom23123",
-      "contractCode": "MMBFD",
-      "abbreviation": "TRC31",
-      "dateSignContract": "17/03/2025",
-      "userId": "1",
-      "building": ""
-    },
-    {
-      "id": "0836e3c6-27ec-43b2-9b67-34e0e2dc1c55",
-      "name": "kì 1 năm 2025",
-      "contractCode": "1",
-      "abbreviation": "TRC31",
-      "dateSignContract": "17/03/2025",
-      "userId": "1",
-      "building": ""
-    }
-  ],
-  "buildingIbc": [
-    {
-      "id": "f0883a71-c14a-49a9-966b-941db82cbf83",
-      "name": "tòa IMBF thanh hóa",
-      "contractCode": "2",
-      "codeIBC": "MFG231",
-      "address": "Trụ sở công ty: Số 10 đường Bà Triệu, Hà Đông, Hà Nội",
-      "partner_id": "43c72458-3d5a-49a5-a534-358baef62c81"
-    }
-  ],
-  "login": [
-    {
-      "id": 1,
-      "username": "admin",
-      "password": "admin123",
-      "role": "admin",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.admin_token",
-      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.admin_refresh"
-    },
-    {
-      "id": 2,
-      "username": "user",
-      "password": "user123",
-      "role": "user",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.user_token",
-      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.user_refresh"
-    }
-  ],
-  "acceptances": [
-    {
-      "name": "kì 1 năm 2025",
-      "partner_id": "e227f967-2b1c-45b2-9a8c-53619b11ccfd",
-      "building_id": "023389cc-1a75-47e0-a7dd-9b4cd03e8b6f",
-      "startDate": "19/03/2025",
-      "endDate": "26/03/2025",
-      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
-      "id": "10c9ee31-06ed-4a44-a4e6-f8e73777a375"
-    }
-  ],
-  "period": [
-    {
-      "id": "9c4a6a59-e870-459e-a142-a6b64ebadb4d",
-      "name": "BIÊN BẢN ĐÁNH GIÁ CHẤT LƯỢNG PHỦ SÓNG TRẠM HỖ TRỢ MẶT BẰNG  ",
-      "code": "MB-24",
-      "userId": "1",
-      "partner": "1",
-      "building": "1",
-      "acceptanceId": "9c4a6a59-e870-459e-a142-a6b64ebadb4d"
-    },
-    {
-      "id": "9c4a6a59-e870-459e-a142-a6b64ebadb4d",
-      "name": "BIÊN BẢN ĐÁNH GIÁ CHẤT LƯỢNG PHỦ SÓNG TRẠM HỖ TRỢ MẶT BẰNG  ",
-      "code": "MB-24",
-      "userId": "1",
-      "partner": "1",
-      "building": "1",
-      "acceptanceId": "9c4a6a59-e870-459e-a142-a6b64ebadb4d"
-    },
-    {
-      "id": "bb011907-943c-4f14-85ad-d1dfd660d53e",
-      "name": "Kỳ 1",
-      "code": "1",
-      "userId": "1",
-      "partner": "1",
-      "building": "1",
-      "acceptanceId": "266f609d-6acb-4992-a935-41f8412cf4f5"
-    },
-    {
-      "id": "6b590b6d-34ff-4931-b863-0b27c911c391",
-      "partner": "1",
-      "building": "1",
-      "name": "kì 1 năm 2025",
-      "code": "",
-      "userId": "1",
-      "acceptanceId": "266f609d-6acb-4992-a935-41f8412cf4f5"
-    },
-    {
-      "id": "9ffa0d5f-b325-4ada-a928-7ec14142407d",
-      "partner": "1",
-      "building": "1",
-      "name": "kì 1 năm 2025",
-      "code": "",
-      "userId": "1",
-      "acceptanceId": "266f609d-6acb-4992-a935-41f8412cf4f5"
-    }
-  ],
+  "partnersManagement": [],
+  "buildingIbc": [],
+  "acceptances": [],
+  "period": [],
   "dataReports": [
     {
       "id": "1",
@@ -368,6 +266,58 @@
       "telecom_station_id": "",
       "partners_id": "",
       "role_id": "1",
+      "image": ""
+    },
+    {
+      "id": "f2b7ba33-9689-473f-8889-3559b1212d72",
+      "email": "vanhansss10@gmail.com",
+      "first_name": "Nhân Viên",
+      "last_name": "PVT",
+      "password": "123456",
+      "numberPhone": "0988776654",
+      "department_id": "2",
+      "telecom_station_id": "",
+      "partners_id": "",
+      "role_id": "1",
+      "image": ""
+    },
+    {
+      "id": "8fad9cd5-b8d6-472f-891f-ec46679b303b",
+      "email": "vanhasswwwwwguyen2810@gmail.com",
+      "first_name": "Lãnh Đạo",
+      "last_name": "PVT",
+      "password": "123456",
+      "numberPhone": "0987776654",
+      "department_id": "2",
+      "telecom_station_id": "",
+      "partners_id": "",
+      "role_id": "2",
+      "image": ""
+    },
+    {
+      "id": "b9f3ff66-7ac5-4133-9c6e-f22baebc7c74",
+      "email": "va333333uyen2810@gmail.com",
+      "first_name": "Nhân Viên ",
+      "last_name": "Đối tác",
+      "password": "123456",
+      "numberPhone": "0223443234",
+      "department_id": "4",
+      "telecom_station_id": "",
+      "partners_id": "43c72458-3d5a-49a5-a534-358baef62c81",
+      "role_id": "1",
+      "image": ""
+    },
+    {
+      "id": "61469a81-d8d5-45f4-a676-afcf0925635a",
+      "email": "vans2423yen2810@gmail.com",
+      "first_name": "Lãnh Đạo",
+      "last_name": "Đôsi  tác",
+      "password": "123456",
+      "numberPhone": "0223443234",
+      "department_id": "4",
+      "telecom_station_id": "",
+      "partners_id": "43c72458-3d5a-49a5-a534-358baef62c81",
+      "role_id": "2",
       "image": ""
     }
   ],
