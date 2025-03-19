@@ -263,37 +263,13 @@
   ],
   "acceptances": [
     {
-      "id": "ef3b9960-b993-4215-b096-a83bb6c44060",
       "name": "kì 1 năm 2025",
-      "partner": "1",
-      "building": "1",
-      "startDate": "17/03/2025",
-      "endDate": "18/03/2025",
-      "userId": "1",
-      "status": "1",
-      "recordType": "1"
-    },
-    {
-      "id": "266f609d-6acb-4992-a935-41f8412cf4f5",
-      "name": "kì 1 năm 2025",
-      "partner": "1",
-      "building": "1",
-      "startDate": "17/03/2025",
-      "endDate": "17/03/2025",
-      "userId": "1",
-      "status": "1",
-      "recordType": "1"
-    },
-    {
-      "id": "2",
-      "name": "namdz",
-      "partner": "1",
-      "building": "1",
-      "startDate": "17/03/2025",
-      "endDate": "18/03/2025",
-      "userId": "1",
-      "status": "1",
-      "recordType": "1"
+      "partner_id": "e227f967-2b1c-45b2-9a8c-53619b11ccfd",
+      "building_id": "023389cc-1a75-47e0-a7dd-9b4cd03e8b6f",
+      "startDate": "19/03/2025",
+      "endDate": "26/03/2025",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "id": "10c9ee31-06ed-4a44-a4e6-f8e73777a375"
     }
   ],
   "period": [
@@ -382,17 +358,17 @@
   ],
   "user": [
     {
-      "id": "2093",
-      "email": "namd2@gmail.com",
-      "password": "namd2@gmail.com",
-      "phone": "0866621957",
-      "first_name": "0866621957",
-      "last_name": "0866621957",
-      "profile_image": "MLMB - P.VT/DaiVT/Đối tác",
-      "department_id": "ALPHA",
-      "role_id": "Lãnh đạo",
+      "id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "email": "admin@gmail.com",
+      "first_name": "Admin",
+      "last_name": "Admin",
+      "password": "123123",
+      "numberPhone": "0866621957",
+      "department_id": "2",
       "telecom_station_id": "",
-      "partners_id": ""
+      "partners_id": "",
+      "role_id": "1",
+      "image": ""
     }
   ],
   "department": [
@@ -449,5 +425,6 @@
       "province": "Thái Nguyên"
     }
   ],
-  "reports": []
+  "reports": [],
+  "notifications": []
 }
