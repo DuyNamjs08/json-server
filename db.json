@@ -100,6 +100,69 @@
       "dateSignContract": "",
       "userId": "1",
       "building": ""
+    },
+    {
+      "id": "4bfed540-49d9-4e69-a7d9-0466fa53c991",
+      "name": "Công ty cổ phần VNI A",
+      "contractCode": "VNI_123",
+      "abbreviation": "VNI ",
+      "dateSignContract": "",
+      "userId": "1",
+      "building": ""
+    },
+    {
+      "id": "ef50fdfb-c7e4-4b9f-92af-130a654acfbe",
+      "name": "Công ty Sky",
+      "contractCode": "SKY",
+      "abbreviation": "SKY",
+      "dateSignContract": "",
+      "userId": "1",
+      "building": ""
+    },
+    {
+      "id": "e586aad8-ab2e-45d6-b720-a1ee104d3346",
+      "name": "Công ty cổ phần VNG",
+      "contractCode": "VNG_HBF",
+      "abbreviation": "VNG_HBF",
+      "dateSignContract": "",
+      "userId": "1",
+      "building": ""
+    },
+    {
+      "id": "174cfafb-ed72-4fab-aaa6-4175af11b8e0",
+      "name": "Công ty cổ phần TRC",
+      "contractCode": "TRC_252",
+      "abbreviation": "TRC_252",
+      "dateSignContract": "",
+      "userId": "1",
+      "building": ""
+    },
+    {
+      "id": "d3c252a2-f1e4-4706-9cf7-b9a7ce62b75b",
+      "name": "Công ty cổ phần VNI C",
+      "contractCode": "VNI_B",
+      "abbreviation": "VNI_B",
+      "dateSignContract": "",
+      "userId": "1",
+      "building": ""
+    },
+    {
+      "id": "03359ef2-a3c7-4e74-8357-1fdacbe71e3f",
+      "name": "Công ty cổ phần VNI D",
+      "contractCode": "VNI_D",
+      "abbreviation": "VNI_D",
+      "dateSignContract": "",
+      "userId": "1",
+      "building": ""
+    },
+    {
+      "id": "4eeba29f-4830-4347-8caa-bb6bac4cd44e",
+      "name": "Công ty cổ phần VNI E",
+      "contractCode": "VNI_E",
+      "abbreviation": "VNI_E",
+      "dateSignContract": "",
+      "userId": "1",
+      "building": ""
     }
   ],
   "buildingIbc": [
@@ -111,6 +174,33 @@
       "address": "12345",
       "telecom_station_id": "2",
       "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47"
+    },
+    {
+      "id": "7d013625-94db-488e-a39e-587192d32330",
+      "name": "Tòa SKY Hoàng Mai Hà Nội",
+      "contractCode": "1",
+      "codeIBC": "SKY-HN1",
+      "address": "SKY-HN1",
+      "telecom_station_id": "2",
+      "partner_id": "ef50fdfb-c7e4-4b9f-92af-130a654acfbe"
+    },
+    {
+      "id": "584dd303-bac3-4fb7-a8b9-1374b61812f2",
+      "name": "Tòa IBC Hồng Hà Hà Nam",
+      "contractCode": "1",
+      "codeIBC": "BNH_IBC_HH_HN",
+      "address": "IBC_TRC_252",
+      "telecom_station_id": "2",
+      "partner_id": "e586aad8-ab2e-45d6-b720-a1ee104d3346"
+    },
+    {
+      "id": "02b61c4c-831c-4aab-80ca-05f308d23a07",
+      "name": "Tòa Landmark 72 Mễ Trì",
+      "contractCode": "1",
+      "codeIBC": "LandMark72",
+      "address": "Mễ Trì Hà Nội",
+      "telecom_station_id": "2",
+      "partner_id": "ef50fdfb-c7e4-4b9f-92af-130a654acfbe"
     }
   ],
   "acceptances": [
@@ -122,6 +212,24 @@
       "endDate": "01/09/2025",
       "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
       "id": "d2abe65c-3072-4d04-a650-bf20139be0ed"
+    },
+    {
+      "name": "Kì 2 năm 2025",
+      "partner_id": "ef50fdfb-c7e4-4b9f-92af-130a654acfbe",
+      "building_id": "7d013625-94db-488e-a39e-587192d32330",
+      "startDate": "19/03/2025",
+      "endDate": "23/07/2025",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "id": "feb54a83-f721-4007-af27-fc478ed2a810"
+    },
+    {
+      "name": "Kì 1 năm 2024 ",
+      "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "building_id": "78113dc3-31e3-43d2-8b1a-2f60c046f97e",
+      "startDate": "18/03/2025",
+      "endDate": "18/03/2025",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "id": "cb37cf18-a7b5-48c7-99ed-879c875fde96"
     }
   ],
   "period": [
@@ -132,6 +240,44 @@
       "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
       "building_id": "78113dc3-31e3-43d2-8b1a-2f60c046f97e",
       "acceptance_id": "d2abe65c-3072-4d04-a650-bf20139be0ed",
+      "status": "start"
+    },
+    {
+      "partner_id": "ef50fdfb-c7e4-4b9f-92af-130a654acfbe",
+      "building_id": "02b61c4c-831c-4aab-80ca-05f308d23a07",
+      "id": "3b3a501c-4419-4410-a030-1f5902919e99",
+      "name": "Kỳ 1 năm 2025",
+      "code": "",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "acceptance_id": "d2abe65c-3072-4d04-a650-bf20139be0ed",
+      "status": "start"
+    },
+    {
+      "id": "2b145687-e63f-4a17-a20f-c1f0ded5adb2",
+      "name": "Kì 2 năm 2025",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "partner_id": "ef50fdfb-c7e4-4b9f-92af-130a654acfbe",
+      "building_id": "7d013625-94db-488e-a39e-587192d32330",
+      "acceptance_id": "feb54a83-f721-4007-af27-fc478ed2a810",
+      "status": "start"
+    },
+    {
+      "partner_id": "e586aad8-ab2e-45d6-b720-a1ee104d3346",
+      "building_id": "584dd303-bac3-4fb7-a8b9-1374b61812f2",
+      "id": "4f0df7b7-add5-4a49-96f0-f4cf3b2de598",
+      "name": "Kì 2 năm 2025",
+      "code": "",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "acceptance_id": "feb54a83-f721-4007-af27-fc478ed2a810",
+      "status": "start"
+    },
+    {
+      "id": "1b97ed95-44e6-4e56-a627-30a1d607f993",
+      "name": "Kì 1 năm 2024 ",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "building_id": "78113dc3-31e3-43d2-8b1a-2f60c046f97e",
+      "acceptance_id": "cb37cf18-a7b5-48c7-99ed-879c875fde96",
       "status": "start"
     }
   ],
@@ -237,6 +383,32 @@
       "partners_id": "",
       "role_id": "2",
       "image": ""
+    },
+    {
+      "id": "dbe56783-9286-4a28-8d2c-facda57723a4",
+      "email": "nvvtin@mobifone.vn",
+      "first_name": "NV_VTin",
+      "last_name": "NV_Vtin",
+      "password": "123123",
+      "numberPhone": "0325958328",
+      "department_id": "4",
+      "telecom_station_id": "",
+      "partners_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "role_id": "1",
+      "image": ""
+    },
+    {
+      "id": "f6fd40f5-a3f3-44c0-937d-6eff15ae6624",
+      "email": "ldaovtin@mobifone.vn",
+      "first_name": "Lãnh đạo Vtin",
+      "last_name": "LD Vtin",
+      "password": "123123",
+      "numberPhone": "0325958327",
+      "department_id": "4",
+      "telecom_station_id": "",
+      "partners_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "role_id": "2",
+      "image": ""
     }
   ],
   "department": [
@@ -301,6 +473,123 @@
       "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
       "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
       "acceptance_id": "d2abe65c-3072-4d04-a650-bf20139be0ed",
+      "tracking": "4",
+      "flow": [],
+      "data": {
+        "erpName": "",
+        "contractNumber": "",
+        "signedDate": "",
+        "appendixNo": "",
+        "createdAt": "",
+        "buildingArea": "",
+        "averageFlow": "",
+        "dasType": "",
+        "dataQuantity": "",
+        "hasSameWork": "",
+        "outdoorFlow": "",
+        "statsFlow": "2",
+        "lesses": [],
+        "lessors": []
+      }
+    },
+    {
+      "id": "03335674-e1ed-4c96-9baa-2df8386eb1ff",
+      "building_id": "02b61c4c-831c-4aab-80ca-05f308d23a07",
+      "period_id": "3b3a501c-4419-4410-a030-1f5902919e99",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "partner_id": "ef50fdfb-c7e4-4b9f-92af-130a654acfbe",
+      "acceptance_id": "d2abe65c-3072-4d04-a650-bf20139be0ed",
+      "tracking": "2",
+      "flow": [],
+      "data": {
+        "erpName": "",
+        "contractNumber": "",
+        "signedDate": "",
+        "appendixNo": "",
+        "createdAt": "",
+        "buildingArea": "",
+        "averageFlow": "",
+        "dasType": "",
+        "dataQuantity": "",
+        "hasSameWork": "",
+        "outdoorFlow": "",
+        "statsFlow": "1",
+        "lesses": [],
+        "lessors": []
+      }
+    },
+    {
+      "building_id": "7d013625-94db-488e-a39e-587192d32330",
+      "id": "3d34c514-acf5-4144-99a5-a6121c91d243",
+      "partner_id": "ef50fdfb-c7e4-4b9f-92af-130a654acfbe",
+      "period_id": "2b145687-e63f-4a17-a20f-c1f0ded5adb2",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "tracking": "2",
+      "acceptance_id": "feb54a83-f721-4007-af27-fc478ed2a810",
+      "data": {
+        "erpName": "",
+        "averageFlow": "",
+        "buildingArea": "",
+        "contractNumber": "",
+        "appendixNo": "",
+        "dasType": "",
+        "createdAt": "",
+        "dataQuantity": "",
+        "hasSameWork": "",
+        "lesses": [
+          {
+            "id": "",
+            "name": "123",
+            "position": "2423",
+            "signed": false
+          }
+        ],
+        "lessors": [
+          {
+            "id": "",
+            "name": "324",
+            "position": "32423",
+            "signed": false
+          }
+        ],
+        "outdoorFlow": "",
+        "signedDate": "",
+        "statsFlow": "1"
+      }
+    },
+    {
+      "id": "0da761ab-24cc-421e-904d-85dd726cc1a1",
+      "building_id": "584dd303-bac3-4fb7-a8b9-1374b61812f2",
+      "period_id": "4f0df7b7-add5-4a49-96f0-f4cf3b2de598",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "partner_id": "e586aad8-ab2e-45d6-b720-a1ee104d3346",
+      "acceptance_id": "feb54a83-f721-4007-af27-fc478ed2a810",
+      "tracking": "2",
+      "flow": [],
+      "data": {
+        "erpName": "",
+        "contractNumber": "",
+        "signedDate": "",
+        "appendixNo": "",
+        "createdAt": "",
+        "buildingArea": "",
+        "averageFlow": "",
+        "dasType": "",
+        "dataQuantity": "",
+        "hasSameWork": "",
+        "outdoorFlow": "",
+        "statsFlow": "1",
+        "lesses": [],
+        "lessors": []
+      }
+    },
+    {
+      "id": "c8e83f10-6900-4460-bfa1-2b8a8a46640c",
+      "building_id": "78113dc3-31e3-43d2-8b1a-2f60c046f97e",
+      "period_id": "1b97ed95-44e6-4e56-a627-30a1d607f993",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "acceptance_id": "cb37cf18-a7b5-48c7-99ed-879c875fde96",
       "tracking": "2",
       "flow": [],
       "data": {
