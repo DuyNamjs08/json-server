@@ -1,126 +1,4 @@
 {
-  "partners": [
-    {
-      "id": "1",
-      "partner": "ACOM",
-      "year": "2023",
-      "semester": "1"
-    },
-    {
-      "id": "2",
-      "partner": "ALPHA",
-      "year": "2023",
-      "semester": "2"
-    },
-    {
-      "id": "3",
-      "partner": "VIETIN",
-      "year": "2024",
-      "semester": "1"
-    },
-    {
-      "id": "4",
-      "partner": "NAMNH",
-      "year": "2024",
-      "semester": "2"
-    },
-    {
-      "id": "5",
-      "partner": "TECH",
-      "year": "2023",
-      "semester": "1"
-    },
-    {
-      "id": "6",
-      "partner": "BIDV",
-      "year": "2023",
-      "semester": "2"
-    },
-    {
-      "id": " 7",
-      "partner": "VPBANK",
-      "year": "2024",
-      "semester": "1"
-    },
-    {
-      "id": "8",
-      "partner": "FPT",
-      "year": "2024",
-      "semester": "2"
-    },
-    {
-      "id": "9",
-      "partner": "VNG",
-      "year": "2023",
-      "semester": "1"
-    },
-    {
-      "id": "10",
-      "partner": "MB BANK",
-      "year": "2023",
-      "semester": "2"
-    },
-    {
-      "id": "11",
-      "partner": "Công ty X",
-      "year": "2024",
-      "semester": "1"
-    },
-    {
-      "id": "12",
-      "partner": "Công ty Y",
-      "year": "2024",
-      "semester": "2"
-    },
-    {
-      "id": "13",
-      "partner": "TIKI",
-      "year": "2023",
-      "semester": "1"
-    },
-    {
-      "id": " 14",
-      "partner": "LAZADA",
-      "year": "2023",
-      "semester": "2"
-    },
-    {
-      "id": 15,
-      "partner": "SHOPEE",
-      "year": "2024",
-      "semester": "1"
-    },
-    {
-      "id": "16",
-      "partner": "GRAB",
-      "year": "2024",
-      "semester": "2"
-    },
-    {
-      "id": "17",
-      "partner": "ZALO",
-      "year": "2023",
-      "semester": "1"
-    },
-    {
-      "id": "18",
-      "partner": "VNPT",
-      "year": "2023",
-      "semester": "2"
-    },
-    {
-      "id": "19",
-      "partner": "MOMO",
-      "year": "2024",
-      "semester": "1"
-    },
-    {
-      "id": "20",
-      "partner": "VNPAY",
-      "year": "2024",
-      "semester": "2"
-    }
-  ],
   "acceptanceRecords": [
     {
       "id": "123123",
@@ -213,10 +91,50 @@
       "detail": "View"
     }
   ],
-  "partnersManagement": [],
-  "buildingIbc": [],
-  "acceptances": [],
-  "period": [],
+  "partnersManagement": [
+    {
+      "id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "name": "Công ty dịch vụ viễn thông VIETTIN",
+      "contractCode": "HN2025",
+      "abbreviation": "VTIN",
+      "dateSignContract": "",
+      "userId": "1",
+      "building": ""
+    }
+  ],
+  "buildingIbc": [
+    {
+      "id": "78113dc3-31e3-43d2-8b1a-2f60c046f97e",
+      "name": "Tòa Ecolife Capital Tố Hữu - Nam Từ Liêm - Hà Nội ",
+      "contractCode": "1",
+      "codeIBC": "HN_NHH_674592",
+      "address": "12345",
+      "telecom_station_id": "2",
+      "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47"
+    }
+  ],
+  "acceptances": [
+    {
+      "name": "Kỳ 1 năm 2025",
+      "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "building_id": "78113dc3-31e3-43d2-8b1a-2f60c046f97e",
+      "startDate": "01/03/2025",
+      "endDate": "01/09/2025",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "id": "d2abe65c-3072-4d04-a650-bf20139be0ed"
+    }
+  ],
+  "period": [
+    {
+      "id": "8d094679-149b-4aad-8ae0-bc4d8d172ada",
+      "name": "Kỳ 1 năm 2025",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "building_id": "78113dc3-31e3-43d2-8b1a-2f60c046f97e",
+      "acceptance_id": "d2abe65c-3072-4d04-a650-bf20139be0ed",
+      "status": "start"
+    }
+  ],
   "dataReports": [
     {
       "id": "1",
@@ -266,6 +184,58 @@
       "telecom_station_id": "",
       "partners_id": "",
       "role_id": "1",
+      "image": ""
+    },
+    {
+      "id": "907efb54-a24c-4a0c-a5ef-1081ed403d9c",
+      "email": "nhanvien@viettin.com",
+      "first_name": "NV_Viettin",
+      "last_name": "NV_Viettin",
+      "password": "123456",
+      "numberPhone": "0987778345",
+      "department_id": "4",
+      "telecom_station_id": "",
+      "partners_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "role_id": "1",
+      "image": ""
+    },
+    {
+      "id": "abc6baf5-ce02-46ee-bae6-51a8ac13d1f0",
+      "email": "lanhdao@viettin.com",
+      "first_name": "LD_Viettin",
+      "last_name": "LD_Viettin",
+      "password": "123456",
+      "numberPhone": "0987776654",
+      "department_id": "4",
+      "telecom_station_id": "",
+      "partners_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "role_id": "2",
+      "image": ""
+    },
+    {
+      "id": "f3b6e96f-bc41-4551-ba41-b0416035276d",
+      "email": "vanNVPT@gmail.com",
+      "first_name": "NV_PVT",
+      "last_name": "NV_PVT",
+      "password": "123456",
+      "numberPhone": "0977223334",
+      "department_id": "2",
+      "telecom_station_id": "",
+      "partners_id": "",
+      "role_id": "1",
+      "image": ""
+    },
+    {
+      "id": "3cba5c1a-60c2-4510-9a7e-9014db6cc880",
+      "email": "vanLDVT@gmail.com",
+      "first_name": "LD_PVT",
+      "last_name": "LD_PVT",
+      "password": "123456",
+      "numberPhone": "0983344556",
+      "department_id": "2",
+      "telecom_station_id": "",
+      "partners_id": "",
+      "role_id": "2",
       "image": ""
     }
   ],
@@ -323,6 +293,33 @@
       "province": "Thái Nguyên"
     }
   ],
-  "reports": [],
+  "reports": [
+    {
+      "id": "b00595ef-b25b-46a7-82df-bec02560eba6",
+      "building_id": "78113dc3-31e3-43d2-8b1a-2f60c046f97e",
+      "period_id": "8d094679-149b-4aad-8ae0-bc4d8d172ada",
+      "user_id": "e146f4cf-cf0b-466b-9806-2b3b7a4db871",
+      "partner_id": "52346b0e-30de-40d3-a0df-8cc0e5539b47",
+      "acceptance_id": "d2abe65c-3072-4d04-a650-bf20139be0ed",
+      "tracking": "2",
+      "flow": [],
+      "data": {
+        "erpName": "",
+        "contractNumber": "",
+        "signedDate": "",
+        "appendixNo": "",
+        "createdAt": "",
+        "buildingArea": "",
+        "averageFlow": "",
+        "dasType": "",
+        "dataQuantity": "",
+        "hasSameWork": "",
+        "outdoorFlow": "",
+        "statsFlow": "1",
+        "lesses": [],
+        "lessors": []
+      }
+    }
+  ],
   "notifications": []
 }
