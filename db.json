@@ -267,58 +267,6 @@
       "partners_id": "",
       "role_id": "1",
       "image": ""
-    },
-    {
-      "id": "f2b7ba33-9689-473f-8889-3559b1212d72",
-      "email": "vanhansss10@gmail.com",
-      "first_name": "Nhân Viên",
-      "last_name": "PVT",
-      "password": "123456",
-      "numberPhone": "0988776654",
-      "department_id": "2",
-      "telecom_station_id": "",
-      "partners_id": "",
-      "role_id": "1",
-      "image": ""
-    },
-    {
-      "id": "8fad9cd5-b8d6-472f-891f-ec46679b303b",
-      "email": "vanhasswwwwwguyen2810@gmail.com",
-      "first_name": "Lãnh Đạo",
-      "last_name": "PVT",
-      "password": "123456",
-      "numberPhone": "0987776654",
-      "department_id": "2",
-      "telecom_station_id": "",
-      "partners_id": "",
-      "role_id": "2",
-      "image": ""
-    },
-    {
-      "id": "b9f3ff66-7ac5-4133-9c6e-f22baebc7c74",
-      "email": "va333333uyen2810@gmail.com",
-      "first_name": "Nhân Viên ",
-      "last_name": "Đối tác",
-      "password": "123456",
-      "numberPhone": "0223443234",
-      "department_id": "4",
-      "telecom_station_id": "",
-      "partners_id": "43c72458-3d5a-49a5-a534-358baef62c81",
-      "role_id": "1",
-      "image": ""
-    },
-    {
-      "id": "61469a81-d8d5-45f4-a676-afcf0925635a",
-      "email": "vans2423yen2810@gmail.com",
-      "first_name": "Lãnh Đạo",
-      "last_name": "Đôsi  tác",
-      "password": "123456",
-      "numberPhone": "0223443234",
-      "department_id": "4",
-      "telecom_station_id": "",
-      "partners_id": "43c72458-3d5a-49a5-a534-358baef62c81",
-      "role_id": "2",
-      "image": ""
     }
   ],
   "department": [
